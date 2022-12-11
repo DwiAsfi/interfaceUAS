@@ -182,3 +182,15 @@ with tab4:
         st.success(f"Prediksi Hasil Klasifikasi : {pred[0]}")
         st.write(f"Algoritma yang digunakan adalah = Random Forest Algorithm")
         st.success(f"Hasil Akurasi : {score}")
+
+with tab5:
+
+    st.subheader("Profil Mahasiswa")
+    st.write("""
+    Nama : Dwi Asfi Fajrin
+    NIM : 200411100121
+    Kelas : Penambangan Data A
+    Email : dwiasfi2@gmail.com
+    Github : https://github.com/DwiAsfi/interfaceUAS
+    Instagram : @dwiasfi
+    """)
