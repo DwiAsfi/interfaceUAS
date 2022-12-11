@@ -131,6 +131,11 @@ with tab3:
 
         score=metrics.accuracy_score(y_test,Y_pred)
         loaded_model = pickle.load(open(filename, 'rb'))
+        st.subheader("Algoritma Naive Bayes")
+        st.write("""Naive Bayes adalah algoritma machine learning untuk masalah klasifikasi. 
+        Ini didasarkan pada teorema probabilitas Bayes. Hal ini digunakan untuk klasifikasi 
+        teks yang melibatkan set data pelatihan dimensi tinggi. Beberapa contohnya adalah 
+        penyaringan spam, analisis sentimental, dan klasifikasi artikel berita.""")   
         st.write("Hasil Akurasi Algoritma Naive Bayes GaussianNB : ",score)
     if model3:
         model = RandomForestClassifier(n_estimators = 100)
@@ -141,6 +146,11 @@ with tab3:
 
         score=metrics.accuracy_score(y_test,Y_pred)
         loaded_model = pickle.load(open(filename, 'rb'))
+        st.subheader("Algoritma Random Forest")
+        st.write("""Random Forest adalah algoritma dalam machine learning yang digunakan untuk pengklasifikasian 
+        data set dalam jumlah besar. Karena fungsinya bisa digunakan untuk banyak dimensi dengan berbagai skala 
+        dan performa yang tinggi. Klasifikasi ini dilakukan melalui penggabungan tree dalam decision tree dengan 
+        cara training dataset yang Anda miliki.""")   
         st.write("Hasil Akurasi Algoritma Random Forest : ",score)
 
 with tab4:
