@@ -76,6 +76,7 @@ with tab2:
         df_hasil_minmax_scaler=scaler.fit_transform(df_for_minmax_scaler)
 
         st.subheader("Hasil Normalisasi Min_Max")
+        st.write("""Metode normalisasi min-max mengubah sebuah kumpulan data menjadi skala mulai dari 0 (min) hingga 1 (max). Data asli mengalami modifikasi linear dalam prosedur normalisasi data ini. Nilai minimum dan maksimum dari data diambil, """)
         df_hasil_minmax_scaler = pd.DataFrame(df_hasil_minmax_scaler,columns = ['No',	'Weight',	'Length',	'Circumference'])
         st.write(df_hasil_minmax_scaler)
 
