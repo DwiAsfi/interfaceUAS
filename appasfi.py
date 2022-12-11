@@ -104,17 +104,8 @@ with tab3:
 
     st.subheader("Pilih Model")
     model1 = st.checkbox("KNN")
-    st.write("""
-            p
-    """)
     model2 = st.checkbox("Naive Bayes")
-    st.write("""
-    p
-    """)
     model3 = st.checkbox("Random Forest")
-    st.write("""
-    p
-    """)
 
     if model1:
         model = KNeighborsClassifier(n_neighbors=3)
@@ -124,6 +115,8 @@ with tab3:
 
         score=metrics.accuracy_score(y_test,Y_pred)
         loaded_model = pickle.load(open(filename, 'rb'))
+        st.subheader("Algoritma KNN")
+        st.write("""""")
         st.write("Hasil Akurasi Algoritma KNN : ",score)
     if model2:
         model = GaussianNB()
