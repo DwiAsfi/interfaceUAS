@@ -116,7 +116,11 @@ with tab3:
         score=metrics.accuracy_score(y_test,Y_pred)
         loaded_model = pickle.load(open(filename, 'rb'))
         st.subheader("Algoritma KNN")
-        st.write("""""")
+        st.write("""K-Nearest Neighbor(KNN) adalah suatu metode yang menggunakan algoritma supervised dimana hasil dari Query 
+        instance yang baru diklasifikasikan berdasarkan mayoritas dari kategori pada KNN. Tujuan dari algoritma ini adalah 
+        mengklasifikasikan obyek baru bedasarkan atribut dan training sample. Classifier tidak menggunakan model apapun untuk 
+        dicocokkan dan hanya berdasarkan pada memori. Diberikan titik query, akan ditemukan sejumlah k obyek atau (titik training) 
+        yang paling dekat dengan titik query. Klasifikasi menggunakan voting terbanyak diantara klasifikasi dari k obyek.""")
         st.write("Hasil Akurasi Algoritma KNN : ",score)
     if model2:
         model = GaussianNB()
