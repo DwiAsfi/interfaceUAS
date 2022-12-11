@@ -105,7 +105,7 @@ with tab3:
     st.subheader("Pilih Model")
     model1 = st.checkbox("KNN")
     st.write("""
-    p
+            p
     """)
     model2 = st.checkbox("Naive Bayes")
     st.write("""
