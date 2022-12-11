@@ -17,7 +17,7 @@ st.title("Aplikasi Web Datamining")
 st.write("By: Dwi Asfi Fajrin (200411100121)")
 st.write("======================================================================================")
 st.write("""
-## Pengklasifikasian Buah Mangga Harumanis
+## Pengklasifikasian Buah Mangga Harum Manis
 Pembuatan aplikasi berbasis web ini digunakan untuk membantu user dalam mengklasifikasikan sebuah dataset mangga harum manis,
 yang dimana nantinya user akan menginput data untuk setiap fiturnya yang ada dalam dataset buah mangga harum manis, sehingga
 nanti akan diketahui termasuk dalam jenis klasifikasi apa. selain itu ada beberapa algoritma yang disediakan dalam aplikasi web ini
@@ -187,10 +187,10 @@ with tab5:
 
     st.subheader("Profil Mahasiswa")
     st.write("""
-    Nama : Dwi Asfi Fajrin
-    NIM : 200411100121
-    Kelas : Penambangan Data A
-    Email : dwiasfi2@gmail.com
-    Github : https://github.com/DwiAsfi/interfaceUAS
-    Instagram : @dwiasfi
+    - Nama : Dwi Asfi Fajrin
+    - NIM : 200411100121
+    - Kelas : Penambangan Data A
+    - Email : dwiasfi2@gmail.com
+    - Github : https://github.com/DwiAsfi/interfaceUAS
+    - Instagram : @dwiasfi
     """)
