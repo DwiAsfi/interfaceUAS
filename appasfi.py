@@ -42,7 +42,7 @@ with tab1:
     st.write("""
     ### Want to learn more?
     - Dataset [kaggel.com](https://www.kaggle.com/datasets/mohdnazuan/harumanis-mango-physical-measurement)
-    - Github Account [github.com](https://github.com/DwiAsfi/datamining)
+    - Github Account [github.com](https://github.com/DwiAsfi/interfaceUAS)
     """)
 
     st.write(data)
