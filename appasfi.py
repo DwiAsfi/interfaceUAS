@@ -104,8 +104,17 @@ with tab3:
 
     st.subheader("Pilih Model")
     model1 = st.checkbox("KNN")
+    st.write("""
+    p
+    """)
     model2 = st.checkbox("Naive Bayes")
+    st.write("""
+    p
+    """)
     model3 = st.checkbox("Random Forest")
+    st.write("""
+    p
+    """)
 
     if model1:
         model = KNeighborsClassifier(n_neighbors=3)
